@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define MAX 1<<5
-int n, d[Max];
+int n, d[MAX];
 
 void quicksort(int l, int r)
 {
@@ -16,11 +16,11 @@ void quicksort(int l, int r)
         while(d[q] > pivot && q > l) q--;
         
         if(p < q){
-            int t = [p];
+            int t = d[p];
             d[p] = d[q];
             d[q] = t;
         }else{
-            int t = [l];
+            int t = d[l];
             d[l] = d[q];
             d[q] = t;
             break;
