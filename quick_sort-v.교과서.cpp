@@ -7,7 +7,7 @@ int d[50001];
 
 void Partition(int left, int right)
 {
-    int low, high;
+    int low = 0, high = 0;
    
     if(pi == left) low = left+1;
     else low = left;
