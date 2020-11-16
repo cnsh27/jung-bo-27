@@ -10,7 +10,7 @@ int main(){
 		scanf("%d", &d[m]);
 	}
 	while(d[i] != s && i <= n) i++;
-	if(i == n){
+	if(i > n){
 		printf("Not Found!");
 	}else{
 		printf("%d", i);
